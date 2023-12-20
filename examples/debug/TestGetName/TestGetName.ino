@@ -5,7 +5,7 @@ const char* name[] = {
   "SFN.TXT", 
   "LongFilename.txt",
 #if USE_UTF8_LONG_NAMES
-  u8"très élégant.txt",
+  (const char *)"très élégant.txt",
 #endif  // USE_UTF8_LONG_NAMES
   nullptr};
 char buf[32];
